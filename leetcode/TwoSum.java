@@ -1,5 +1,6 @@
 package leetcode;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -36,6 +37,8 @@ public class TwoSum {
             System.out.print(result1[i] + " ");
         }
         System.out.println();
+
+        ArrayList<Integer> list = new ArrayList<>();
     }
 
     // O(n^2)
